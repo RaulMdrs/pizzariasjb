@@ -1,11 +1,16 @@
-type MenuSectionProps = {
-    sectionName : string
-}
+import React, { ReactNode } from 'react';
+import { Container } from '../Drinks/MenuDrinks/styles';
 
-export const MenuSection = ({sectionName} : MenuSectionProps) => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+type MenuSectionProps = {
+  sectionName: string;
+  children: ReactNode;
+};
+
+export const MenuSection: React.FC<MenuSectionProps> = ({ sectionName, children }) => {
+  return (
+    <Container>
+      <h2>{sectionName}</h2>
+      {children}
+    </Container>
+  );
+};

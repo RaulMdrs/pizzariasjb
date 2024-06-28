@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import background from '../../../assets/background.jpg';
 
 export const Container = styled.div`
     display: flex;
@@ -8,6 +9,8 @@ export const Container = styled.div`
     gap: 10px;
     width: 100%;
     height: 90vh;
-    background-color: white;
     padding-top: 1rem;
-`
+    background: url(${background});
+    background-size: cover;
+    background-position: center;
+`;

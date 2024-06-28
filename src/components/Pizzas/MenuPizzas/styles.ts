@@ -6,8 +6,12 @@ export const Container = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
+    width: 93vw;
     height: 90vh;
-    background-color: white;
-    padding-top: 1rem;
+    background-color: gray;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px white;
+    
 `

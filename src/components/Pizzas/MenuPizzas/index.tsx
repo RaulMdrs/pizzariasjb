@@ -1,5 +1,5 @@
 import { PizzaItem } from "../MenuItem"
-import { Container } from "./styles"
+import { Container } from "../../Drinks/MenuDrinks/styles"
 
 export const MenuPizzas = () => {
     return (

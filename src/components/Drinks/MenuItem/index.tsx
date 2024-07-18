@@ -10,7 +10,7 @@ export const MenuItem = ({name, price, hover = false} : MenuItemProps) => {
     return (
         <MenuItemContainer>
             <Name>{name}</Name>
-            <p>R${price}</p>
+            <p>R$ {price}</p>
         </MenuItemContainer>
     )
 }
